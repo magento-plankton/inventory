@@ -8,12 +8,9 @@
 
 <tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="urn:magento:mftf:Test/etc/testSchema.xsd">
-    <test name="AddBundleDynamicProductBySkuFromCustomerAccountTest" extends="AddBundleDynamicProductBySkuFromCustomerAccountTest">
+    <test name="AddSimpleFromCustomStockBySkuFromCustomerAccountTest" extends="AddSimpleProductBySkuFromCustomerAccountTest">
         <annotations>
-            <description value="Add bundle dynamic product by sku from customer account on Additional Stock."/>
-            <skip>
-                <issueId value="https://github.com/magento/inventory/issues/1487"/>
-            </skip>
+            <description value="Add simple product by sku from customer account on additional stock."/>
             <group value="msi"/>
             <group value="multi_mode"/>
         </annotations>

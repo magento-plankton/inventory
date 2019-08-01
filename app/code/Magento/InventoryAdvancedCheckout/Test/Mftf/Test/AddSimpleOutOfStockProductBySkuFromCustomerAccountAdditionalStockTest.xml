@@ -8,7 +8,7 @@
 
 <tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="urn:magento:mftf:Test/etc/testSchema.xsd">
-    <test name="AddSimpleOutOfStockProductBySkuFromCustomerAccountTest" extends="AddSimpleOutOfStockProductBySkuFromCustomerAccountTest">
+    <test name="AddSimpleOutOfStockFromCustomStockBySkuFromCustomerAccountTest" extends="AddSimpleOutOfStockProductBySkuFromCustomerAccountTest">
         <annotations>
             <stories value="Add Product By SKU from custom stock"/>
             <title value="Add simple out of stock product by sku from customer account test, additional stock."/>
