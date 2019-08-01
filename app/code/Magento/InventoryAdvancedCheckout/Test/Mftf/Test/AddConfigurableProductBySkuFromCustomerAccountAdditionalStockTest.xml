@@ -8,7 +8,7 @@
 
 <tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="urn:magento:mftf:Test/etc/testSchema.xsd">
-    <test name="AddConfigurableProductBySkuFromCustomerAccountAdditionalStockTest" extends="AddConfigurableProductBySkuFromCustomerAccountTest">
+    <test name="AddConfigurableProductBySkuFromCustomerAccountTest" extends="AddConfigurableProductBySkuFromCustomerAccountTest">
         <annotations>
             <description value="Add configurable product by sku from customer account, Additional Stock."/>
             <group value="msi"/>

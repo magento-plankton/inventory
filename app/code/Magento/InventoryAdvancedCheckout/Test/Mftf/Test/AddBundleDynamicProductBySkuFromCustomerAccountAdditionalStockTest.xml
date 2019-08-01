@@ -8,7 +8,7 @@
 
 <tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="urn:magento:mftf:Test/etc/testSchema.xsd">
-    <test name="AddBundleDynamicProductBySkuFromCustomerAccountAdditionalStockTest" extends="AddBundleDynamicProductBySkuFromCustomerAccountTest">
+    <test name="AddBundleDynamicProductBySkuFromCustomerAccountTest" extends="AddBundleDynamicProductBySkuFromCustomerAccountTest">
         <annotations>
             <description value="Add bundle dynamic product by sku from customer account on Additional Stock."/>
             <skip>
